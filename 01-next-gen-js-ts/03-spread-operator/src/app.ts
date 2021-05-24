@@ -1,8 +1,8 @@
-const userName = "Max";
+const userName = 'Max'
 // userName = 'Maximilian';
-let age = 30;
+let age = 30
 
-age = 29;
+age = 29
 
 // function add(a: number, b: number) {
 //   let result;
@@ -18,27 +18,27 @@ age = 29;
 
 // console.log(result);
 
-const add = (a: number, b: number = 1) => a + b;
+const add = (a: number, b: number = 1) => a + b
 
 const printOutput: (a: number | string) => void = (output) =>
-  console.log(output);
+    console.log(output)
 
-const button = document.querySelector("button");
+const button = document.querySelector('button')
 
 if (button) {
-  button.addEventListener("click", (event) => console.log(event));
+    button.addEventListener('click', (event) => console.log(event))
 }
 
-printOutput(add(5));
+printOutput(add(5))
 
-const hobbies = ["Sports", "Cooking"];
-const activeHobbies = ["Hiking"];
+const hobbies = ['Sports', 'Cooking']
+const activeHobbies = ['Hiking']
 
-activeHobbies.push(...hobbies);
+activeHobbies.push(...hobbies)
 
 const person = {
-  name: "Max",
-  age: 30,
-};
+    name: 'Max',
+    age: 30,
+}
 
-const copiedPerson = { ...person };
+const copiedPerson = { ...person }

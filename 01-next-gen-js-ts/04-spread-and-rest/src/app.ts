@@ -1,8 +1,8 @@
-const userName = "Max";
+const userName = 'Max'
 // userName = 'Maximilian';
-let age = 30;
+let age = 30
 
-age = 29;
+age = 29
 
 // function add(a: number, b: number) {
 //   let result;
@@ -30,23 +30,23 @@ age = 29;
 
 // printOutput(add(5));
 
-const hobbies = ["Sports", "Cooking"];
-const activeHobbies = ["Hiking"];
+const hobbies = ['Sports', 'Cooking']
+const activeHobbies = ['Hiking']
 
-activeHobbies.push(...hobbies);
+activeHobbies.push(...hobbies)
 
 const person = {
-  name: "Max",
-  age: 30,
-};
+    name: 'Max',
+    age: 30,
+}
 
-const copiedPerson = { ...person };
+const copiedPerson = { ...person }
 
 const add = (...numbers: number[]) => {
-  return numbers.reduce((curResult, curValue) => {
-    return curResult + curValue;
-  }, 0);
-};
+    return numbers.reduce((curResult, curValue) => {
+        return curResult + curValue
+    }, 0)
+}
 
-const addedNumbers = add(5, 10, 2, 3.7);
-console.log(addedNumbers);
+const addedNumbers = add(5, 10, 2, 3.7)
+console.log(addedNumbers)
