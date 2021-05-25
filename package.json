@@ -17,6 +17,7 @@
     },
     "homepage": "https://github.com/terracotta55/typescript-sandbox#readme",
     "devDependencies": {
-        "eslint": "^7.27.0"
+        "eslint": "^7.27.0",
+        "prettier": "2.3.0"
     }
 }
